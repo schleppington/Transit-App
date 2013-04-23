@@ -22,6 +22,14 @@
 		406D51F41724E060008E68BA /* OCTADatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D51F31724E060008E68BA /* OCTADatabase.m */; };
 		406D51F71725FFE5008E68BA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D51F61725FFE5008E68BA /* MainViewController.m */; };
 		406D51FA1725FFF2008E68BA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D51F91725FFF2008E68BA /* DetailViewController.m */; };
+		406D51FC17260864008E68BA /* metrolink.sl3 in Resources */ = {isa = PBXBuildFile; fileRef = 406D51FB17260435008E68BA /* metrolink.sl3 */; };
+		406D51FE17260881008E68BA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 406D51FD17260881008E68BA /* libsqlite3.dylib */; };
+		406D520117261110008E68BA /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D520017261110008E68BA /* PDFViewController.m */; };
+		406D5204172611DF008E68BA /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D5203172611DE008E68BA /* PDFScrollView.m */; };
+		406D52071726124C008E68BA /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D52061726124C008E68BA /* TiledPDFView.m */; };
+		406D520B17261978008E68BA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 406D520A17261978008E68BA /* QuartzCore.framework */; };
+		406D520F17261AF4008E68BA /* metrolink_system_map.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 406D520E17261AF4008E68BA /* metrolink_system_map.pdf */; };
+		406D521217261CC5008E68BA /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D521117261CC4008E68BA /* Line.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +58,17 @@
 		406D51F81725FFF2008E68BA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		406D51F91725FFF2008E68BA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		406D51FB17260435008E68BA /* metrolink.sl3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = metrolink.sl3; sourceTree = "<group>"; };
+		406D51FD17260881008E68BA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsqlite3.dylib; sourceTree = "<group>"; };
+		406D51FF17261110008E68BA /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		406D520017261110008E68BA /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		406D5202172611DE008E68BA /* PDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFScrollView.h; sourceTree = "<group>"; };
+		406D5203172611DE008E68BA /* PDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFScrollView.m; sourceTree = "<group>"; };
+		406D52051726124C008E68BA /* TiledPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledPDFView.h; sourceTree = "<group>"; };
+		406D52061726124C008E68BA /* TiledPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledPDFView.m; sourceTree = "<group>"; };
+		406D520A17261978008E68BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		406D520E17261AF4008E68BA /* metrolink_system_map.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = metrolink_system_map.pdf; sourceTree = "<group>"; };
+		406D521017261CC4008E68BA /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		406D521117261CC4008E68BA /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406D520B17261978008E68BA /* QuartzCore.framework in Frameworks */,
+				406D51FE17260881008E68BA /* libsqlite3.dylib in Frameworks */,
 				406D51CD1724B5E0008E68BA /* UIKit.framework in Frameworks */,
 				406D51CF1724B5E0008E68BA /* Foundation.framework in Frameworks */,
 				406D51D11724B5E0008E68BA /* CoreGraphics.framework in Frameworks */,
@@ -86,6 +107,8 @@
 		406D51CB1724B5E0008E68BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				406D520A17261978008E68BA /* QuartzCore.framework */,
+				406D51FD17260881008E68BA /* libsqlite3.dylib */,
 				406D51CC1724B5E0008E68BA /* UIKit.framework */,
 				406D51CE1724B5E0008E68BA /* Foundation.framework */,
 				406D51D01724B5E0008E68BA /* CoreGraphics.framework */,
@@ -96,10 +119,19 @@
 		406D51D21724B5E0008E68BA /* Transit App */ = {
 			isa = PBXGroup;
 			children = (
+				406D520E17261AF4008E68BA /* metrolink_system_map.pdf */,
 				406D51DB1724B5E0008E68BA /* AppDelegate.h */,
 				406D51DC1724B5E0008E68BA /* AppDelegate.m */,
 				406D51E41724B5E0008E68BA /* MainStoryboard.storyboard */,
+				406D521017261CC4008E68BA /* Line.h */,
+				406D521117261CC4008E68BA /* Line.m */,
 				406D51F81725FFF2008E68BA /* DetailViewController.h */,
+				406D51FF17261110008E68BA /* PDFViewController.h */,
+				406D520017261110008E68BA /* PDFViewController.m */,
+				406D5202172611DE008E68BA /* PDFScrollView.h */,
+				406D5203172611DE008E68BA /* PDFScrollView.m */,
+				406D52051726124C008E68BA /* TiledPDFView.h */,
+				406D52061726124C008E68BA /* TiledPDFView.m */,
 				406D51F91725FFF2008E68BA /* DetailViewController.m */,
 				406D51EF1724D9B5008E68BA /* MetrolinkDatabase.h */,
 				406D51F01724D9B5008E68BA /* MetrolinkDatabase.m */,
@@ -185,6 +217,8 @@
 				406D51E11724B5E0008E68BA /* Default@2x.png in Resources */,
 				406D51E31724B5E0008E68BA /* Default-568h@2x.png in Resources */,
 				406D51E61724B5E0008E68BA /* MainStoryboard.storyboard in Resources */,
+				406D51FC17260864008E68BA /* metrolink.sl3 in Resources */,
+				406D520F17261AF4008E68BA /* metrolink_system_map.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +236,10 @@
 				406D51F41724E060008E68BA /* OCTADatabase.m in Sources */,
 				406D51F71725FFE5008E68BA /* MainViewController.m in Sources */,
 				406D51FA1725FFF2008E68BA /* DetailViewController.m in Sources */,
+				406D520117261110008E68BA /* PDFViewController.m in Sources */,
+				406D5204172611DF008E68BA /* PDFScrollView.m in Sources */,
+				406D52071726124C008E68BA /* TiledPDFView.m in Sources */,
+				406D521217261CC5008E68BA /* Line.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +292,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos6.1;
 			};
 			name = Debug;
 		};
@@ -278,7 +316,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos6.1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -290,7 +328,9 @@
 				GCC_PREFIX_HEADER = "Transit App/Transit App-Prefix.pch";
 				INFOPLIST_FILE = "Transit App/Transit App-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SDKROOT[arch=*]" = iphoneos6.1;
 				WRAPPER_EXTENSION = app;
+				sqlite3 = "";
 			};
 			name = Debug;
 		};
@@ -302,6 +342,7 @@
 				INFOPLIST_FILE = "Transit App/Transit App-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+				sqlite3 = "";
 			};
 			name = Release;
 		};
