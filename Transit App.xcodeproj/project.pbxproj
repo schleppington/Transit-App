@@ -20,6 +20,8 @@
 		406D51E91724B5E0008E68BA /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D51E81724B5E0008E68BA /* TableViewController.m */; };
 		406D51F11724D9B5008E68BA /* MetrolinkDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D51F01724D9B5008E68BA /* MetrolinkDatabase.m */; };
 		406D51F41724E060008E68BA /* OCTADatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D51F31724E060008E68BA /* OCTADatabase.m */; };
+		406D51F71725FFE5008E68BA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D51F61725FFE5008E68BA /* MainViewController.m */; };
+		406D51FA1725FFF2008E68BA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D51F91725FFF2008E68BA /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,11 @@
 		406D51F01724D9B5008E68BA /* MetrolinkDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetrolinkDatabase.m; sourceTree = "<group>"; };
 		406D51F21724E060008E68BA /* OCTADatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTADatabase.h; sourceTree = "<group>"; };
 		406D51F31724E060008E68BA /* OCTADatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTADatabase.m; sourceTree = "<group>"; };
+		406D51F51725FFE5008E68BA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		406D51F61725FFE5008E68BA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		406D51F81725FFF2008E68BA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		406D51F91725FFF2008E68BA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		406D51FB17260435008E68BA /* metrolink.sl3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = metrolink.sl3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +99,12 @@
 				406D51DB1724B5E0008E68BA /* AppDelegate.h */,
 				406D51DC1724B5E0008E68BA /* AppDelegate.m */,
 				406D51E41724B5E0008E68BA /* MainStoryboard.storyboard */,
+				406D51F81725FFF2008E68BA /* DetailViewController.h */,
+				406D51F91725FFF2008E68BA /* DetailViewController.m */,
 				406D51EF1724D9B5008E68BA /* MetrolinkDatabase.h */,
 				406D51F01724D9B5008E68BA /* MetrolinkDatabase.m */,
+				406D51F51725FFE5008E68BA /* MainViewController.h */,
+				406D51F61725FFE5008E68BA /* MainViewController.m */,
 				406D51F21724E060008E68BA /* OCTADatabase.h */,
 				406D51F31724E060008E68BA /* OCTADatabase.m */,
 				406D51E71724B5E0008E68BA /* TableViewController.h */,
@@ -106,6 +117,7 @@
 		406D51D31724B5E0008E68BA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				406D51FB17260435008E68BA /* metrolink.sl3 */,
 				406D51D41724B5E0008E68BA /* Transit App-Info.plist */,
 				406D51D51724B5E0008E68BA /* InfoPlist.strings */,
 				406D51D81724B5E0008E68BA /* main.m */,
@@ -188,6 +200,8 @@
 				406D51E91724B5E0008E68BA /* TableViewController.m in Sources */,
 				406D51F11724D9B5008E68BA /* MetrolinkDatabase.m in Sources */,
 				406D51F41724E060008E68BA /* OCTADatabase.m in Sources */,
+				406D51F71725FFE5008E68BA /* MainViewController.m in Sources */,
+				406D51FA1725FFF2008E68BA /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
