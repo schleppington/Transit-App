@@ -1,10 +1,5 @@
-//
-//  TiledPDFView.h
-//  Transit App
-//
-//  Created by Kurtis Schlepp on 4/22/13.
-//  Copyright (c) 2013 Kurtis Schlepp. All rights reserved.
-//
+//Author: M Shafae
+//Description: Took this from the example pdf project
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
